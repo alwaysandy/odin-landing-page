@@ -22,7 +22,7 @@ body {
     color: #F9FAF8;
 }
 
-ul {
+.header-links {
     display: flex;
     margin: 0;
     padding: 0;
@@ -30,7 +30,7 @@ ul {
     gap: 20px;
 }
 
-a {
+.header-links a {
     text-decoration: none;
     font-size: 18px;
     color: #E5E7EB
@@ -75,7 +75,7 @@ a {
     color: #F9FAF8;
 }
 
-button {
+.signup-button {
     background-color: #3883F6;
     color: #F9FAF8;
     padding: 4px 28px;

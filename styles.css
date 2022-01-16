@@ -8,7 +8,7 @@ body {
 /* Start header properties */
 
 .header {
-    padding: 6px;
+    padding: 6px 500px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -43,8 +43,7 @@ body {
 .hero-main {
     display: flex;
     gap: 50px;
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding: 100px 500px;
     background-color: #1F2937;
 }
 
@@ -60,7 +59,7 @@ body {
     color: #F9FAF8;
 }
 
-.hero-main-text {
+.hero-main-subtext {
     font-size: 18px;
     color: #E5E7EB;
     padding-bottom: 8px;
@@ -75,7 +74,7 @@ body {
     color: #F9FAF8;
 }
 
-.signup-button {
+button {
     background-color: #3883F6;
     color: #F9FAF8;
     padding: 6px 30px;
@@ -91,8 +90,7 @@ body {
 .info-container {
     display: flex;
     flex-direction: column;
-    padding-top: 50px;
-    padding-bottom: 100px;
+    padding: 50px 500px 100px;
 }
 
 .info-header {
@@ -127,6 +125,7 @@ body {
 .subtext {
     text-align: center;
     color: #1F2937;
+    font-weight: 400;
 }
 
 /* End information properties */
@@ -136,8 +135,7 @@ body {
     background-color: #E5E7EB;
     display: flex;
     flex-direction: column;
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding: 100px 500px;
 }
 
 .quote {
@@ -145,23 +143,53 @@ body {
     color: #1F2937;
     font-style: italic;
     font-weight: 300;
-    padding: 0px 50px;
+    padding: 0px 75px;
 }
-
 .quote-author {
     align-self: flex-end;
     color: #1F2937;
     font-size: 24px;
     font-weight: bold;
-    padding: 0px 50px;
+    padding: 0px 75px;
+}
+/* End quote properties */
+
+/* Start call to action properties */
+.cta-container {
+    display: flex;
+    padding: 50px 75px;
+    border-radius: 15px;
+    margin: 100px 500px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3883F6;
 }
 
-
-/* Left and right padding for all divs */
-.header,
-.hero-main,
-.info,
-.quote-container {
-    padding-left: 500px;
-    padding-right: 500px;
+.cta-header {
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
 }
+
+.cta-subtext {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.cta-button {
+    border: 2px solid white;
+    border-radius: 8px;
+}
+/* End call to action properties */
+
+/* Start footer properties */
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: white;
+    font-size: 11px;
+    padding: 25px 0px;
+}
+/* End footer properties */
